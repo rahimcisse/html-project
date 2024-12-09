@@ -1,3 +1,6 @@
+html{
+    background-image: url("images/p.png")
+}
 
 body {
     font-family: 'Arial', sans-serif;
@@ -22,12 +25,12 @@ header {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px; /* Add padding for spacing */
+    padding: 0 20px; 
 }
 
 .header-content h1 {
     margin: 0;
-    flex-grow: 1; /* Ensures the title takes the available space */
+    flex-grow: 1; 
 }
 
 nav ul {
@@ -35,10 +38,11 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
+
 }
 
 nav ul li {
-    margin: 0 15px; /* Adjusted spacing between menu items */
+    margin: 0 15px; 
 }
 
 nav ul li a {
@@ -49,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #a8dadc; /* Hover effect color change */
+    color: #a8dadc; 
 }
 
 .cart-icon {
@@ -74,7 +78,7 @@ nav ul li a:hover {
     background-color: rgb(228, 227, 227);
     margin: 10px;
     padding: 20px;
-    width: calc((100% / 3) - 40px); /* Adjust for 3 products per row */
+    width: calc((100% / 3) - 40px); 
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -121,12 +125,16 @@ footer {
 
 @media screen and (max-width: 768px) {
     .product {
-        width: calc((100% / 2) - 30px); /* Adjust for 2 products per row */
+        width: calc((100% / 2) - 30px);
     }
 }
 
 @media screen and (max-width: 480px) {
     .product {
-        width: 100%; /* Full width for single product per row */
+        width: 100%; 
     }
+}
+
+.field{
+    background-color: rgb(228, 227, 227);
 }
