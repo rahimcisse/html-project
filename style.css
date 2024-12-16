@@ -1,5 +1,6 @@
 html{
-    background-image: url("images/p.png")
+    background-color: hsl(0, 0%,0%,0.703 );
+    background-image: url("images/p.png");
 }
 
 :root{
@@ -10,12 +11,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("images/p.png")
+    background-image: url("images/p.png");
     
+
 }
 
 header {
     background-color:#28a745;
+
     color: white;
     padding: 15px 0;
     display: flex;
@@ -30,6 +33,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px; 
+    
 }
 
 .header-content h1 {
@@ -134,5 +138,13 @@ footer {
 }
 
 .field{
-    background-color: #34d359;
+    background-color:rgba(0, 0, 0, 0.313);
+    color: white;
+    
+
+}
+.costume{
+    color:white;
+    text-shadow: 5px 5px 5px #000;
+    background-color:rgba(0, 0, 0, 0.313);
 }
