@@ -60,15 +60,9 @@ nav ul li a:hover {
     color: #a8dadc; 
 }
 
-.cart-icon {
-    display: flex;
-    align-items: center;
-}
 
-.cart-icon img {
-    width: 30px;
-    height: auto;
-}
+
+
 
 
 .product-container {
@@ -140,5 +134,5 @@ footer {
 }
 
 .field{
-    background-color: rgb(228, 227, 227);
+    background-color: #34d359;
 }
