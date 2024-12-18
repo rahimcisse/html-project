@@ -7,8 +7,16 @@ if (PlayGame) {
 
             let computerChoice = Math.floor(Math.random() * 3 + 1);
             let computer = computerChoice == 1 ? "rock" 
-            : computerChoice == 2 ? "paper"
-            : "scissors";
+                : computerChoice == 2 ? "paper"
+                : "scissors";
+               
+            let result=
+            playerOne == computer
+            ?"Tie game!"
+            : playerOne==="rock" && computer === "paper"
+            ? 'playerOne: ${playerOne}\nComputer: ${computer}\nComputer wins!'
+
+
 
         } else {
         alert("You didn't enter rock, paper, or scissors.");
